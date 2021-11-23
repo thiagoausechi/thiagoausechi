@@ -4,7 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thiagoausechi&label=Profile%20views&color=0e75b6&style=flat" alt="thiagoausechi" /> </p>
 
 - 📢 I’m currently study Marketing and Advertising at [Unimar](https://oficial.unimar.br/)!
-- 📸 I'm a [Photography Enthusiast](https://www.instagram.com/ausechiphotos/) and [Designer](https://www.behance.net/thiagoausechi)
+- 📸 I'm a [Photography Enthusiast](https://www.instagram.com/ausechiphotos/) and [Designer](https://www.behance.net/thiagoausechi).
 - 🤓 My hobby is studying FULLSTACK programming.
 - 🖥️ Access [my site](https://thiagoausechi.vercel.app/) for more info!
 <br><br>
