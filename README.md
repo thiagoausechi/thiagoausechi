@@ -9,7 +9,7 @@
 - 🖥️ Access [my site](https://thiagoausechi.vercel.app/) for more info!
 <br><br>
 
-<h2 align="left">🛠 Languages and Tools:</h2>
+<h2 align="left">🛠 Languages and Tools</h2>
 <p align="left">
   <h3> Programming Languages </h3>
   <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
@@ -48,7 +48,13 @@
 </p>
 <br><br>
 
-<h2 align="left">Connect with me:</h2>
+<h2 align="left">⚙️ GitHub Analytics</h2>
+<p>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=thiagoausechi&show_icons=true&theme=dark&locale=en&layout=compact" alt="thiagoausechi" />&nbsp;
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=thiagoausechi&show_icons=true&theme=dark&locale=en" alt="thiagoausechi" />
+</p>
+<br><br>
+<h2 align="left">Connect with me</h2>
 <p align="left">
 <a href="https://linkedin.com/in/thiagoausechi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thiagoausechi" height="30" width="40" /></a>
 <a href="https://codesandbox.com/thiagoausechi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="thiagoausechi" height="30" width="30" /></a>
@@ -56,11 +62,5 @@
 </p>
 <br><br>
 
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=thiagoausechi&show_icons=true&theme=dark&locale=en&layout=compact" alt="thiagoausechi" />&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=thiagoausechi&show_icons=true&theme=dark&locale=en" alt="thiagoausechi" />
-</p>
-<br><br>
-
-<h3 align="left">Support:</h3>
+<h3 align="left">Support</h3>
 <p><a href="https://www.buymeacoffee.com/thiagoausechi"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="thiagoausechi" /></a></p><br><br>
