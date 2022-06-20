@@ -1,5 +1,5 @@
 
-<h1 align="center">Hello <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px">, I'm Thiago Ausechi</h1>
+<h1 align="center">Hello <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30">, I'm Thiago Ausechi</h1>
 <p align="center">I'm a Marketing and Advertising Student!</p>
 
 - 📢 I’m currently study Marketing and Advertising at [Unimar](https://oficial.unimar.br/)!
