@@ -2,9 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background: #010409;
+  background: #2D2E31;
+  color: #fff;
 }
 
 a {
@@ -14,4 +13,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+main
+{
+  padding: 16px;
 }
