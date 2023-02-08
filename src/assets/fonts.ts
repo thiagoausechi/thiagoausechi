@@ -10,6 +10,6 @@ export const fira = Fira_Mono({
 export const east = East_Sea_Dokdo({
   subsets: ['latin'],
   weight: ['400'],
-  variable: '--font-sea',
+  variable: '--font-east-sea',
   display: 'swap'
 });
