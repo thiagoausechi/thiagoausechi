@@ -11,9 +11,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <Wrapper>
           <Header />
-          <Content>
+          <Container>
             {children}
-          </Content>
+          </Container>
         </Wrapper>
       </body>
     </html>
@@ -21,4 +21,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 
 const Wrapper = tw.div`font-fira relative min-h-screen overflow-hidden bg-zinc-800 text-zinc-400`;
-const Content = tw.main`p-4 text-white`;
+const Container = tw.main`min-h-screen pt-20 text-white`;
