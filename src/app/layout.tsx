@@ -20,5 +20,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   );
 }
 
-const Wrapper = tw.div`font-fira relative min-h-screen overflow-hidden bg-zinc-800 text-zinc-400`;
-const Container = tw.main`min-h-screen pt-20 text-white`;
+const Wrapper = tw.div`flex min-h-screen flex-col bg-zinc-800 pt-20 font-fira text-zinc-400`;
+const Container = tw.main`relative mx-auto w-full grow text-zinc-100`;

@@ -12,7 +12,7 @@ const links = [
 
 export default function Header() {
   return (
-    <Navbar>
+    <Wrapper>
       <Taskbar>
         <WindowButtons />
         <Title>thiago ausechi / portfolio</Title>
@@ -21,13 +21,13 @@ export default function Header() {
         {links.map(({ href, label }) => <NavTab key={href} href={href} title={label} />)}
         <Filler />
       </Tabs>
-    </Navbar>
+    </Wrapper>
   );
 }
 
-const Navbar = tw.nav`fixed z-50 top-0 w-full flex-col justify-around border-b border-b-zinc-600 bg-zinc-800/90 pb-3 text-xs drop-shadow-md backdrop-blur`;
+const Wrapper = tw.header`fixed left-0 top-0 z-50 flex w-full flex-col justify-around border-b border-b-zinc-600 bg-zinc-800/90 pb-3 text-xs drop-shadow-md backdrop-blur`;
 const Taskbar = tw.div`flex h-8 content-between items-center px-4`;
 const Title = tw.div`flex w-full items-center justify-center`;
 
-const Tabs = tw.div`flex h-9 w-full flex-row items-center`;
+const Tabs = tw.nav`flex h-9 w-full flex-row items-center`;
 const Filler = tw.div`h-full grow border-y border-y-zinc-600 bg-zinc-900/90`;
