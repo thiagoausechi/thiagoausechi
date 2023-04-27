@@ -1,4 +1,4 @@
-import tw from "tailwind-styled-components"
+import tw from 'tailwind-styled-components'
 
 /**
  * Purely aesthetical component
@@ -11,10 +11,10 @@ export default function WindowButtons() {
       <Backfull />
       <Full />
     </Actions>
-  );
+  )
 }
 
-const Actions  = tw.div`absolute flex items-center gap-1.5`;
-const Close    = tw.div`h-2 w-2 rounded bg-red-400`;
-const Backfull = tw.div`h-2 w-2 rounded bg-yellow-400`;
-const Full     = tw.div`h-2 w-2 rounded bg-green-400`;
+const Actions  = tw.div`absolute flex items-center gap-1.5`
+const Close    = tw.div`h-2 w-2 rounded bg-red-400`
+const Backfull = tw.div`h-2 w-2 rounded bg-yellow-400`
+const Full     = tw.div`h-2 w-2 rounded bg-green-400`
