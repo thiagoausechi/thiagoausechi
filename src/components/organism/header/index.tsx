@@ -4,11 +4,12 @@ import WindowButtons from '../../molecules/window-buttons'
 import NavTab from '../../atoms/nav-tab'
 
 // TODO: Refactor this code
+// FIXME: Add the links to the other pages
 const links = [
   { href: '/', label: 'home' },
-  { href: '/projects', label: 'projects' },
+  /*{ href: '/projects', label: 'projects' },
   { href: '/about', label: 'about' },
-  { href: '/blog', label: 'blog' },
+  { href: '/blog', label: 'blog' },*/
 ]
 
 export default function Header() {
