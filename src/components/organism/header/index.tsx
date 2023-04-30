@@ -3,14 +3,7 @@ import tw from 'tailwind-styled-components'
 import WindowButtons from '../../molecules/window-buttons'
 import NavTab from '../../atoms/nav-tab'
 
-// TODO: Refactor this code
-// FIXME: Add the links to the other pages
-const links = [
-  { href: '/', label: 'home' },
-  /*{ href: '/projects', label: 'projects' },
-  { href: '/about', label: 'about' },
-  { href: '/blog', label: 'blog' },*/
-]
+import TabsLinks from '../../../assets/pages-links'
 
 export default function Header() {
   return (
@@ -20,8 +13,8 @@ export default function Header() {
         <Title>thiago ausechi / portfolio</Title>
       </Taskbar>
       <Tabs>
-        {links.map(({ href, label }) => (
-          <NavTab key={href} href={href} title={label} />
+        {TabsLinks.map(({ href, label, disabled }) => (
+          <NavTab key={href} href={href} title={label} disabled={disabled} />
         ))}
         <Filler />
       </Tabs>
