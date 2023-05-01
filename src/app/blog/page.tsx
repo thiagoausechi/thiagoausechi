@@ -1,3 +1,5 @@
+import BlogPageContainer from '../../components/containers/blog-page'
+
 export default function BlogPage() {
-  return <div>Blog</div>
+  return <BlogPageContainer />
 }

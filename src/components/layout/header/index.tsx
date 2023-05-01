@@ -1,7 +1,7 @@
 import tw from 'tailwind-styled-components'
 
-import WindowButtons from '../../molecules/window-buttons'
-import NavTab from '../../atoms/nav-tab'
+import WindowButtons from '../navbar/window-buttons'
+import NavTab from '../navbar/nav-tab'
 
 import TabsLinks from '../../../assets/pages-links'
 

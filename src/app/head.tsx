@@ -1,4 +1,4 @@
-import FaviconMeta from '../components/atoms/favicon-meta'
+import FaviconMeta from '../components/utils/favicon-meta'
 
 export default function Head() {
   return (

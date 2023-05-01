@@ -1,3 +1,5 @@
+import ProjectsPageContainer from '../../components/containers/projects-page'
+
 export default function ProjectsPage() {
-  return <div>Project</div>
+  return <ProjectsPageContainer />
 }
