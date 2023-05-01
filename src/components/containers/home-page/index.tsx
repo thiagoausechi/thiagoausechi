@@ -1,3 +1,5 @@
+import MobileAlert from './mobile-alert'
+
 export default function HomePageContainer() {
-  return <div>Home [W.I.P]</div>
+  return <MobileAlert />
 }
