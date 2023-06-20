@@ -42,7 +42,7 @@ export default function FaviconMeta() {
         name='msapplication-config'
         content='/assets/favicon/browserconfig.xml'
       />
-      <meta name='theme-color' content='#ffffff' />
+      <meta name='theme-color' content='#27272a' />
     </>
   )
 }
