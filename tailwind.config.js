@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         fira: 'var(--font-fira)',
         east: 'var(--font-east-sea)',
+        virgil: 'var(--font-virgil)',
       },
       screens: {
         tablet: '425px',

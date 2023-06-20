@@ -1,3 +1,4 @@
+import localFont from '@next/font/local'
 import { Fira_Mono, East_Sea_Dokdo } from '@next/font/google'
 
 export const fira = Fira_Mono({
@@ -12,4 +13,11 @@ export const east = East_Sea_Dokdo({
   weight: ['400'],
   variable: '--font-east-sea',
   display: 'swap',
+})
+
+export const virgil = localFont({
+  src: '../styles/Virgil.woff2',
+  weight: '400',
+  style: 'normal',
+  variable: '--font-virgil',
 })
