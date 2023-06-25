@@ -29,6 +29,15 @@ module.exports = {
       },
     },
     extend: {
+      animation: {
+        flash: 'flash 1s linear infinite',
+      },
+      keyframes: {
+        flash: {
+          'from, 50%, to': { opacity: 1 },
+          '51%, 99%': { opacity: 0 },
+        },
+      },
       fontFamily: {
         fira: 'var(--font-fira)',
         east: 'var(--font-east-sea)',
