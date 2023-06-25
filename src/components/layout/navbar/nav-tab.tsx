@@ -13,7 +13,7 @@ export default function NavTab({ href, title, disabled }: any) {
       {active ? `<${title}/>` : `_${title}`}
     </Tab>
   ) : (
-    <DisabledTab>{`_${title}`}</DisabledTab>
+    <DisabledTab>{`--${title}`}</DisabledTab>
   )
 }
 
@@ -22,11 +22,11 @@ const Tab = tw(Link)<{
   href: string
   active: string
 }>`
-  flex h-full content-center items-center justify-center border border-l-0 border-zinc-600/70 px-10 text-center transition duration-300 hover:bg-neutral-700/70 hover:text-zinc-300
+  flex h-full content-center items-center justify-center border border-l-0 border-border px-10 text-center transition duration-300 hover:bg-neutral-700/70 hover:text-heading
   ${(p) =>
     p.active === 'true'
-      ? 'italic border-b-0 bg-inherit border-t-red-400 text-zinc-200 shadow-[0_-3px_4px_-2px_rgba(255,96,89,0.4)]'
-      : 'bg-zinc-900/90'}
+      ? 'italic border-b-0 bg-inherit border-t-accent text-heading shadow-[0_-3px_4px_-2px_rgba(255,96,89,0.4)]'
+      : 'bg-background-dark/90'}
 `
 
-const DisabledTab = tw.div`flex h-full content-center items-center justify-center border border-l-0 border-zinc-600/70 px-10 text-center cursor-not-allowed`
+const DisabledTab = tw.div`flex h-full cursor-not-allowed content-center items-center justify-center border border-l-0 border-border bg-background-dark/90 px-10 text-center text-disabled`

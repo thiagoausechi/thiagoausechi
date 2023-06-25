@@ -1,7 +1,33 @@
+const colors = require('tailwindcss/colors')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    colors: {
+      transparent: colors.transparent,
+      current: colors.current,
+      black: colors.black,
+      white: colors.white,
+      debug: '#FF0000',
+      primary: {
+        DEFAULT: colors.sky[500],
+        dark: colors.cyan[900],
+      },
+      accent: {
+        DEFAULT: '#FF6059',
+        dark: colors.red[600],
+      },
+      heading: colors.zinc[100],
+      text: colors.zinc[400],
+      comment: colors.zinc[600],
+      disabled: colors.zinc[600],
+      border: colors.zinc[600],
+      background: {
+        DEFAULT: colors.zinc[800],
+        dark: colors.zinc[900],
+      },
+    },
     extend: {
       fontFamily: {
         fira: 'var(--font-fira)',

@@ -6,7 +6,7 @@ type IconProps = {
 
 const STYLES = {
   default: 'm-full h-full',
-  link: 'desktop:h-9 desktop:w-9 h-12 w-12 cursor-pointer fill-zinc-700 transition duration-300 hover:fill-zinc-300',
+  link: 'desktop:h-9 desktop:w-9 h-12 w-12 cursor-pointer fill-disabled transition duration-300 hover:fill-heading',
   tag: '',
 }
 

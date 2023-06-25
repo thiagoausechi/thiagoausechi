@@ -15,6 +15,6 @@ export default function WindowButtons() {
 }
 
 const Actions  = tw.div`absolute flex items-center gap-1.5`
-const Close    = tw.div`h-2 w-2 rounded transition bg-red-400 hover:bg-red-500`
-const Backfull = tw.div`h-2 w-2 rounded transition bg-yellow-400 hover:bg-yellow-500`
-const Full     = tw.div`h-2 w-2 rounded transition bg-green-400 hover:bg-green-500`
+const Close    = tw.div`h-2 w-2 rounded transition bg-[#f87171] hover:bg-[#ef4444]`
+const Backfull = tw.div`h-2 w-2 rounded transition bg-[#facc15] hover:bg-[#eab308]`
+const Full     = tw.div`h-2 w-2 rounded transition bg-[#4ade80] hover:bg-[#22c55e]`

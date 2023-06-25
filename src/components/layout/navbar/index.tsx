@@ -14,4 +14,4 @@ export default function Navbar() {
 }
 
 const Wrapper = tw.nav`flex h-9 w-full flex-row items-center`
-const Filler = tw.div`h-full grow border-y border-y-zinc-600 bg-zinc-900/90`
+const Filler = tw.div`h-full grow border-y border-y-border bg-background-dark/90`
