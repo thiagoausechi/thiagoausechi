@@ -10,23 +10,44 @@ export default function BackgroundHoverEffect() {
   const [disabled] = useLocalStorage('disable-hover-effect', false)
   const prefersReducedMotion = usePrefersReducedMotion()
 
-  const updatePosition = (e: MouseEvent) => {
+  const updatePosition = (x: number, y: number) => {
     const element = elementRef.current
 
     if (element) {
       element.animate(
         {
-          clipPath: `circle(10% at ${e.clientX}px ${e.clientY}px)`,
+          clipPath: `circle(10% at ${x}px ${y}px)`,
         },
         { duration: 3000, fill: 'forwards' },
       )
+
+      /**
+       * Safari has a weird interaction between the
+       * inline style and the animate function
+       * (animated property collision)
+       * This is a workaround solution.
+       */
+      if (element.style.clipPath !== '') {
+        // set the clip-path to the position without any delay
+        // resulting in a "pop" animation
+        element.animate(
+          { clipPath: `circle(10% at ${x}px ${y}px)` },
+          { fill: 'forwards' },
+        )
+
+        // clear the inline style so Safari won't conflict
+        element.style.clipPath = ''
+      }
     }
   }
 
-  useEffect(() => {
-    document.addEventListener('mousemove', updatePosition)
+  const handleMouseMove = ({ clientX, clientY }: MouseEvent) =>
+    updatePosition(clientX, clientY)
 
-    return () => document.removeEventListener('mousemove', updatePosition)
+  useEffect(() => {
+    document.addEventListener('mousemove', handleMouseMove)
+
+    return () => document.removeEventListener('mousemove', handleMouseMove)
   })
 
   return (
@@ -36,7 +57,7 @@ export default function BackgroundHoverEffect() {
         ref={elementRef}
         className='absolute inset-0 overflow-hidden bg-primary-dark'
         style={{ clipPath: 'circle(0% at 50% 50%)' }}
-      ></div>
+      />
     )
   )
 }
