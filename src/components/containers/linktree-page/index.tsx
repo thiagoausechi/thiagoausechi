@@ -6,7 +6,7 @@ export default function LinktreeContainer() {
     <div className='desktop:hidden flex flex-col items-center justify-center grow overflow-hidden'>
       <h1>Under construction.</h1>
       <p>
-        Please, visit{' '}
+        Please, visit&nbsp;
         <Link
           className='underline'
           target='_blank'

@@ -1,16 +1,16 @@
 'use client'
+import useLocalStorage from '@/hooks/local-storage'
+import usePrefersReducedMotion from '@/hooks/prefers-reduced-motion'
 import { useEffect, useRef } from 'react'
-import useLocalStorage from '../../hooks/local-storage'
-import usePrefersReducedMotion from '../../hooks/prefers-reduced-motion-hook'
 
 // TODO: Add option to disable this effect
 export default function BackgroundHoverEffect() {
-  const elementRef = useRef(null)
+  const elementRef = useRef<HTMLDivElement>(null)
 
   const [disabled] = useLocalStorage('disable-hover-effect', false)
   const prefersReducedMotion = usePrefersReducedMotion()
 
-  const updatePosition = (e: PointerEvent) => {
+  const updatePosition = (e: MouseEvent) => {
     const element = elementRef.current
 
     if (element) {

@@ -1,7 +1,6 @@
 import tw from 'tailwind-styled-components'
 
 import BackgroundHoverEffect from './background-hover-effect'
-
 import HomeContent from './home-content'
 import ProfilePicture from './profile-picture'
 

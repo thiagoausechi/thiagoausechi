@@ -1,5 +1,5 @@
+import TabsLinks from '@/assets/pages-links'
 import tw from 'tailwind-styled-components'
-import TabsLinks from '../../../assets/pages-links'
 import NavTab from './nav-tab'
 
 export default function Navbar() {

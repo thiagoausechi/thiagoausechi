@@ -14,7 +14,7 @@ export default function Variable({ variable, value }: Props) {
       <span>{variable}</span>
       &nbsp;=&nbsp;
       <Link href={'http://www.' + value} target='_blank'>
-        "{value}"
+        &ldquo;{value}&ldquo;
       </Link>
     </Wrapper>
   )

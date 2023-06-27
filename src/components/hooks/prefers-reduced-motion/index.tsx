@@ -18,7 +18,7 @@ export default function usePrefersReducedMotion() {
     setPrefersReducedMotion(!window.matchMedia(QUERY).matches)
 
     // Register our event listener
-    const listener = (event) => {
+    const listener = (event: MediaQueryListEvent) => {
       setPrefersReducedMotion(!event.matches)
     }
 

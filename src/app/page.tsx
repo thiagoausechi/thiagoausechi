@@ -1,7 +1,7 @@
-import HomePageContainer from '../components/containers/home-page'
-import LinktreeContainer from '../components/containers/linktree-page'
+import HomePageContainer from '@/containers/home-page'
+import LinktreeContainer from '@/containers/linktree-page'
 
-// TODO: Add a Dynamic loading for Desktop Version
+// TODO: Add a Dynamic loadin\g for Desktop Version
 export default function HomePage() {
   return (
     <>

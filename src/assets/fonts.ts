@@ -1,5 +1,5 @@
-import localFont from '@next/font/local'
-import { Fira_Mono, East_Sea_Dokdo } from '@next/font/google'
+import { East_Sea_Dokdo, Fira_Mono } from 'next/font/google'
+import localFont from 'next/font/local'
 
 export const fira = Fira_Mono({
   subsets: ['latin'],

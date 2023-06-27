@@ -1,14 +1,14 @@
-import tw from 'tailwind-styled-components'
-import HtmlTag from '../../layout/html-tag'
+import HtmlTag from '@/layout/html-tag'
 import {
   FigmaIcon,
   FirebaseIcon,
   NextIcon,
   ReactIcon,
   TypeScriptIcon,
-} from '../../layout/icons'
-import CommentLine from '../../layout/single-comment-paragraph'
-import Variable from '../../layout/variable-paragraph'
+} from '@/layout/icons'
+import CommentLine from '@/layout/single-comment-paragraph'
+import Variable from '@/layout/variable-paragraph'
+import tw from 'tailwind-styled-components'
 
 export default function HomeContent() {
   return (

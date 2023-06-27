@@ -4,7 +4,13 @@ import tw from 'tailwind-styled-components'
 import Link from 'next/link'
 import { useSelectedLayoutSegments } from 'next/navigation'
 
-export default function NavTab({ href, title, disabled }: any) {
+type Props = {
+  href: string
+  title: string
+  disabled: boolean
+}
+
+export default function NavTab({ href, title, disabled }: Props) {
   const segment = useSelectedLayoutSegments()
   const active = href === `/${segment}`
 
@@ -17,11 +23,13 @@ export default function NavTab({ href, title, disabled }: any) {
   )
 }
 
-const Tab = tw(Link)<{
+type TabProps = {
   children: React.ReactNode
   href: string
   active: string
-}>`
+}
+
+const Tab = tw(Link)<TabProps>`
   flex h-full content-center items-center justify-center border border-l-0 border-border px-10 text-center transition duration-300 hover:bg-neutral-700/70 hover:text-heading
   ${(p) =>
     p.active === 'true'

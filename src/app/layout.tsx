@@ -1,8 +1,11 @@
+import Header from '@/layout/header'
+import '@/styles/globals.css'
 import tw from 'tailwind-styled-components'
-import '../styles/globals.css'
-
 import { east, fira, virgil } from '../assets/fonts'
-import Header from '../components/layout/header'
+
+export const metadata = {
+  title: 'thiago ausechi | portfolio',
+}
 
 export default function RootLayout({
   children,
@@ -10,12 +13,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html
-      lang='en'
-      className={`${fira.variable} ${east.variable} ${virgil.variable}`}
-    >
-      <head />
-      <Body>
+    <html lang='en'>
+      <Body className={`${fira.variable} ${east.variable} ${virgil.variable}`}>
         <Header />
         <Main>{children}</Main>
       </Body>
