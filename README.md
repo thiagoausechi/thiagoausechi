@@ -9,7 +9,6 @@
 
 Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), complementei minhas habilidades com estudos e prática constante em desenvolvimento e programação, fortalecendo minha paixão por tecnologia e soluções criativas. Meu foco principal é na área de Front-end, indo desde o Design das Interfaces (UI) até na implementação em códigos.
 
-- 👨‍💻 Estagiário Voluntário na CEPEIN ([FEMA](https://fema.edu.br/)) como Dev Front-end.
 - 📸 Sou um [entusiasta na fotografia](https://www.instagram.com/ausechiphotos/).
 - 🎸 Meu hobby é praticar instrumentos musicais.
 
