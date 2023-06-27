@@ -1,10 +1,10 @@
-const colors = require('tailwindcss/colors');
+const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     colors: {
@@ -12,13 +12,13 @@ module.exports = {
       current: colors.current,
       black: colors.black,
       white: colors.white,
-      debug: '#FF0000',
+      debug: "#FF0000",
       primary: {
         DEFAULT: colors.sky[500],
         dark: colors.cyan[900],
       },
       accent: {
-        DEFAULT: '#FF6059',
+        DEFAULT: "#FF6059",
         dark: colors.red[600],
       },
       heading: colors.zinc[100],
@@ -33,24 +33,24 @@ module.exports = {
     },
     extend: {
       animation: {
-        flash: 'flash 1s linear infinite',
+        flash: "flash 1s linear infinite",
       },
       keyframes: {
         flash: {
-          'from, 50%, to': { opacity: 1 },
-          '51%, 99%': { opacity: 0 },
+          "from, 50%, to": { opacity: 1 },
+          "51%, 99%": { opacity: 0 },
         },
       },
       fontFamily: {
-        fira: 'var(--font-fira)',
-        east: 'var(--font-east-sea)',
-        virgil: 'var(--font-virgil)',
+        fira: "var(--font-fira)",
+        east: "var(--font-east-sea)",
+        virgil: "var(--font-virgil)",
       },
       screens: {
-        tablet: '425px',
+        tablet: "425px",
         // => @media (min-width: 425px) { ... }
 
-        desktop: '1360px',
+        desktop: "1360px",
         // => @media (min-width: 1360px) { ... }
       },
     },
