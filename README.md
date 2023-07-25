@@ -9,6 +9,7 @@
 
 Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), complementei minhas habilidades com estudos e prática constante em desenvolvimento e programação, fortalecendo minha paixão por tecnologia e soluções criativas. Meu foco principal é na área de Front-end, indo desde o Design das Interfaces (UI) até na implementação em códigos.
 
+- 👨‍💻 Estagiário Voluntário na CEPEIN ([FEMA](https://fema.edu.br/)) como Dev Front-end.
 - 📸 Sou um [entusiasta na fotografia](https://www.instagram.com/ausechiphotos/).
 - 🎸 Meu hobby é praticar instrumentos musicais.
 
@@ -19,7 +20,7 @@ Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), com
 <p align='center'><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,firebase,ts,js,redux,java&perline=4" alt="Principais tecnologias e ferramentas"></p>
 
 <p align='center'>IDEs utilizados</p>
-<p align='center'><img src="https://skillicons.dev/icons?i=vscode,eclipse" alt="Principais tecnologias e ferramentas"></p>
+<p align='center'><img src="https://skillicons.dev/icons?i=vscode,eclipse,idea" alt="Principais tecnologias e ferramentas"></p>
 
 <p align='center'>Ferramentas de Design</p>
 <p align='center'><img src="https://skillicons.dev/icons?i=figma,ai,ps" alt="Ferramentas de design"></p>
