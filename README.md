@@ -7,9 +7,10 @@
 <a href="https://www.behance.net/thiagoausechi"><img src="https://img.shields.io/badge/Behance-0ea5e9?style=for-the-badge&logo=behance&logoColor=white&link=https://www.behance.net/thiagoausechi" alt="Behance Badge"></a>
 </p>
 
-Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), complementei minhas habilidades com estudos e prática constante em desenvolvimento e programação, fortalecendo minha paixão por tecnologia e soluções criativas. Meu foco principal é na área de Front-end, indo desde o Design das Interfaces (UI) até na implementação em códigos.
+Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), complementei minhas habilidades com estudos e prática constante em desenvolvimento e programação, fortalecendo minha paixão por tecnologia e soluções criativas. Meu foco principal é na área de Front-end, indo desde o Design das Interfaces (UI) até na implementação em códigos. 
 
-- 👨‍💻 Estagiário Voluntário na CEPEIN ([FEMA](https://fema.edu.br/)) como Dev Front-end.
+- 🎓 Cursando Ciência da Computação na [FEMA](https://fema.edu.br/).
+- 👨‍💻 Estagiário no Centro de Pesquisa em Informática (CEPEIN, [FEMA](https://fema.edu.br/)) como Analista de Arquitetura para Front-end.
 - 📸 Sou um [entusiasta na fotografia](https://www.instagram.com/ausechiphotos/).
 - 🎸 Meu hobby é praticar instrumentos musicais.
 
@@ -17,19 +18,16 @@ Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), com
 
 ## <p align='center'>🛠 Principais Techs & Ferramentas</p>
 
-<p align='center'><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,firebase,ts,js,redux,java&perline=4" alt="Principais tecnologias e ferramentas"></p>
+<p align='center'><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,firebase,angular,ts,java&perline=4" alt="Principais tecnologias e ferramentas"></p>
 
 <p align='center'>IDEs utilizados</p>
-<p align='center'><img src="https://skillicons.dev/icons?i=vscode,eclipse,idea" alt="Principais tecnologias e ferramentas"></p>
+<p align='center'><img src="https://skillicons.dev/icons?i=vscode,idea,eclipse" alt="Principais tecnologias e ferramentas"></p>
 
 <p align='center'>Ferramentas de Design</p>
 <p align='center'><img src="https://skillicons.dev/icons?i=figma,ai,ps" alt="Ferramentas de design"></p>
 
-<p align='center'>Estudando atualmente</p>
-<p align='center'><img src="https://skillicons.dev/icons?i=angular,bootstrap,spring" alt="Estudando Angular, Bootstrap e Spring atualmente"></p>
-
 <p align='center'>Outros aprendizados</p>
-<p align='center'><img src="https://skillicons.dev/icons?i=arduino,cpp,pr,nodejs,lua,regex&perline=3" alt="Outros aprendizados"></p>
+<p align='center'><img src="https://skillicons.dev/icons?i=arduino,cpp,pr,nodejs,lua,regex,graphql,redux,supabase&perline=3" alt="Outros aprendizados"></p>
 
 <br>
 
@@ -38,7 +36,7 @@ Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), com
 <p align='center'>Desktop</p>
  <p align='center'>
   <img src="https://img.shields.io/badge/windows-%230078D6.svg?&style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/intel-core%20i5%206th-%230071C5.svg?&style=for-the-badge&logo=intel&logoColor=white" />
+  <img src="https://img.shields.io/badge/ryzen-%205%205600-%23ED1C24.svg?&style=for-the-badge&logo=amd&logoColor=white" />
   <img src="https://img.shields.io/badge/RAM-32GB-%230071C5.svg?&style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/nvidia-rtx%202060-%2376B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white" />
 </p>
