@@ -23,6 +23,9 @@ Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), com
 <p align='center'>IDEs utilizados</p>
 <p align='center'><img src="https://skillicons.dev/icons?i=vscode,idea,eclipse" alt="Principais tecnologias e ferramentas"></p>
 
+<p align='center'>Estudando atualmente</p>
+<p align='center'><img src="https://skillicons.dev/icons?i=neovim,docker,nginx" alt="Ferramentas de design"></p>
+
 <p align='center'>Ferramentas de Design</p>
 <p align='center'><img src="https://skillicons.dev/icons?i=figma,ai,ps" alt="Ferramentas de design"></p>
 
@@ -36,6 +39,7 @@ Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), com
 <p align='center'>Desktop</p>
  <p align='center'>
   <img src="https://img.shields.io/badge/windows-%230078D6.svg?&style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/wsl-%230078D6.svg?&style=for-the-badge&logo=ubuntu&logoColor=white" />
   <img src="https://img.shields.io/badge/ryzen-%205%205600-%23ED1C24.svg?&style=for-the-badge&logo=amd&logoColor=white" />
   <img src="https://img.shields.io/badge/RAM-32GB-%230071C5.svg?&style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/nvidia-rtx%202060-%2376B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white" />
@@ -46,7 +50,7 @@ Com uma formação em Publicidade pela [Unimar](https://oficial.unimar.br/), com
   <img src="https://img.shields.io/badge/Apple-MacBook_Pro_m1-333333?style=for-the-badge&logo=apple&logoColor=white" />
 </p>
 
-<br>
+## <br>
 
 <p align='center'>Descubra como eu transformo ideias em realidade, acesse agora:</p>
 <p align='center'>
